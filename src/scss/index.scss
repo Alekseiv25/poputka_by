@@ -55,9 +55,30 @@ body {
                 color: white;
                 font-size: 20px;
                 transition: 0.3s;
+
                 &:hover {
                     transform: scale(1.1);
                 }
+            }
+        }
+
+
+    }
+
+    @media (max-width: 860px) {
+        .wrapper {
+            justify-content: center;
+
+            .logo {
+                max-width: 25%;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            nav {
+                display: none;
             }
         }
     }
@@ -86,6 +107,12 @@ main {
                 z-index: 999;
             }
 
+            @media (max-width: 1000px) {
+                h1 {
+                    font-size: 32px;
+                }
+            }
+
             img {
                 max-width: 80%;
                 pointer-events: none;
@@ -103,8 +130,21 @@ main {
                 z-index: 999;
                 transition: 0.5s;
                 animation: scaleAnimation 2s infinite;
+
                 &:hover {
                     transform: scale(1.1);
+                }
+            }
+
+            @media (max-width: 1000px) {
+                a {
+                    font-size: 28px;
+                }
+            }
+
+            @media (max-width: 530px) {
+                a {
+                    font-size: 12px;
                 }
             }
         }
@@ -154,6 +194,22 @@ main {
                     background: url('../assets/img/bg_card_3.png') no-repeat 50%/cover;
                 }
             }
+
+            @media (max-width: 860px) {
+                .card-container {
+                    flex-direction: column;
+
+                    .card {
+                        max-width: none;
+
+                        p {
+                            max-width: 340px;
+                            height: 180px;
+                        }
+                    }
+                }
+            }
+
         }
     }
 
@@ -171,12 +227,20 @@ main {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
 
                 h2 {
                     color: white;
                     text-align: center;
                     font-size: 32px;
                     margin-bottom: 20px;
+
+                }
+
+                @media (max-width: 1000px) {
+                    h2 {
+                        font-size: 24px;
+                    }
                 }
 
                 p {
@@ -184,6 +248,12 @@ main {
                     font-size: 24px;
                     text-align: center;
                     margin-bottom: 40px;
+                }
+
+                @media (max-width: 1000px) {
+                    p {
+                        font-size: 16px;
+                    }
                 }
 
                 a {
@@ -203,6 +273,20 @@ main {
                         transform: scale(1.1);
                     }
                 }
+
+                @media (max-width: 1000px) {
+                    a {
+                        font-size: 24px;
+                        max-width: 60%;
+                        padding: 5px
+                    }
+                }
+
+                @media (max-width: 700px) {
+                    a {
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }
@@ -216,6 +300,12 @@ main {
                 text-align: center;
                 font-size: 60px;
                 margin-bottom: 20px;
+            }
+
+            @media (max-width: 1000px) {
+                h2 {
+                    font-size: 32px;
+                }
             }
 
             .card-container {
@@ -243,10 +333,23 @@ main {
                         padding: 10px;
                         text-align: center;
                         transition: 0.3s;
+
                         &:hover {
                             transform: scale(1.1);
                         }
                     }
+
+                    @media (max-width: 680px) {
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 530px) {
+                .card-container {
+                    flex-direction: column;
                 }
             }
         }

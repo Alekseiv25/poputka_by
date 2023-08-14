@@ -65,7 +65,7 @@ body {
 
     }
 
-    @media (max-width: 860px) {
+    @media (max-width: 860px) and (device-width: 860px)  {
         .wrapper {
             justify-content: center;
 
@@ -107,7 +107,7 @@ main {
                 z-index: 999;
             }
 
-            @media (max-width: 1000px) {
+            @media (max-width: 1000px) and (device-width: 1000px)  {
                 h1 {
                     font-size: 32px;
                 }
@@ -136,13 +136,13 @@ main {
                 }
             }
 
-            @media (max-width: 1000px) {
+            @media (max-width: 1000px) and (device-width: 1000px)  {
                 a {
                     font-size: 28px;
                 }
             }
 
-            @media (max-width: 530px) {
+            @media (max-width: 530px) and (device-width: 530px)  {
                 a {
                     font-size: 12px;
                 }
@@ -195,7 +195,7 @@ main {
                 }
             }
 
-            @media (max-width: 860px) {
+            @media (max-width: 860px) and (device-width: 680px)  {
                 .card-container {
                     flex-direction: column;
 
@@ -237,7 +237,7 @@ main {
 
                 }
 
-                @media (max-width: 1000px) {
+                @media (max-width: 1000px) and (device-width: 1000px)  {
                     h2 {
                         font-size: 24px;
                     }
@@ -250,7 +250,7 @@ main {
                     margin-bottom: 40px;
                 }
 
-                @media (max-width: 1000px) {
+                @media (max-width: 1000px) and (device-width: 1000px)  {
                     p {
                         font-size: 16px;
                     }
@@ -274,7 +274,7 @@ main {
                     }
                 }
 
-                @media (max-width: 1000px) {
+                @media (max-width: 1000px) and (device-width: 1000px)  {
                     a {
                         font-size: 24px;
                         max-width: 60%;
@@ -282,7 +282,7 @@ main {
                     }
                 }
 
-                @media (max-width: 700px) {
+                @media (max-width: 700px) and (device-width: 700px)  {
                     a {
                         font-size: 12px;
                     }
@@ -302,7 +302,7 @@ main {
                 margin-bottom: 20px;
             }
 
-            @media (max-width: 1000px) {
+            @media (max-width: 1000px) and (device-width: 1000px)  {
                 h2 {
                     font-size: 32px;
                 }
@@ -339,7 +339,7 @@ main {
                         }
                     }
 
-                    @media (max-width: 680px) {
+                    @media (max-width: 680px) and (device-width: 680px) {
                         a {
                             font-size: 16px;
                         }
@@ -347,7 +347,7 @@ main {
                 }
             }
 
-            @media (max-width: 530px) {
+            @media (max-width: 530px) and (device-width: 530px)  {
                 .card-container {
                     flex-direction: column;
                 }
